@@ -3,7 +3,6 @@
 </h1>
 
 
-
 @foreach ($posts as $post)
   <h2>{{$post->title}}</h2>
   <h2>{{$post->body}}</h2>
