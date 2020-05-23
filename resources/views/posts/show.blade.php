@@ -9,6 +9,7 @@
 <body>
   <div class="card" style="width: 18rem;">
    <div class="card-body">
+     <p>{{$post->id}}</p>
       <h5 class="card-title">{{$post->title}}</h5>
       <p class="card-text">{{$post->body}}</p>
       <img class="card-img-top" src="{{$post->img}}" alt="{{$post->title}}">
